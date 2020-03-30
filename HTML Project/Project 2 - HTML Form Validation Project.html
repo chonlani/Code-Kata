@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <from id="orderForm" aria-autocomplete="on">
+      <fieldset>
+        <legend>Custommer Info</legend>
+        <p>
+          <label>
+            Name:
+            <input
+              id="fullname"
+              name="name"
+              type="text"
+              placeholder="Enter your name"
+              autofocus
+              required
+              size="50"
+            />
+          </label>
+        </p>
+        <p>
+          <label
+            >Telephone:
+            <input
+              id="tel"
+              name="telephone"
+              type="tel"
+              placeholder="pattern: 1-234-567-8910"
+              pattern="([0-9]{1}(-[0-9]{3})(-[0-9]{3})(-[0-9]{4}))"
+              required
+              size="50"
+            />
+          </label>
+        </p>
+        <p>
+          <label
+            >E-mail address:
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Enter your email address"
+              required
+              size="50"
+            />
+          </label>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Book</legend>
+        <p>
+          <lable>
+            <input type="text" name="productlist" list="books" size="45" />
+            <datalist id="books">
+              <option
+                value="HTML5 Canvaz by Steve Fulton & Jeff Fulton"
+              ></option>
+              <option
+                value="JavaScript: The Definitive Guide by David Flanagan"
+              ></option>
+              <option
+                value="HTML5 Geolocation by Anthony T. Holdener "
+              ></option>
+              <option
+                value="Supercharged JavaScript Graphics by Reffaele Cecco"
+              ></option>
+              <option value="HTML5: Up and Running by Mark Pilgrim"></option>
+            </datalist>
+          </lable>
+          <label>
+            Quantity (Maximum 5) :
+            <input
+              name="from_namber"
+              id="from_number"
+              type="number"
+              min="1"
+              max="5"
+            />
+          </label>
+        </p>
+      </fieldset>
+      <br />
+
+      <input type="submit" value="submit" />
+    </from>
+  </body>
+</html>
