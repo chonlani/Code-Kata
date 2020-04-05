@@ -26,10 +26,10 @@ body {
     display: flex;
     margin-right: 2rem;
 }
-ul {
+/* ul {
     list-style: none;
-}
-ul {
+} */
+/* ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -37,7 +37,7 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
+} */
 li {
     display: list-item;
     text-align: -webkit-match-parent;
@@ -215,3 +215,42 @@ h1, h2 {
 .fa-github:before {
     content: "\f09b";
 }
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-at:before {
+    content: "\f1fa";
+}
+.fa-mobile-alt:before {
+    content: "\f3cd";
+}
+footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-gray);
+    border-top: 4px solid var(--main-red);
+}
+footer > p {
+    margin: 2rem;
+}
+footer i {
+    vertical-align: middle;
+}
+.fa-free-code-camp:before {
+    content: "\f2c5";
+}
+/* footer {
+    display: block;
+} */
+/* html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+} */
+
+html {
+    font-size: 60%;
+}
+
