@@ -1,0 +1,14 @@
+body{
+    background: #DCEBFC;
+}
+.container{
+    background: #FFF;
+    padding: 10rem
+
+}
+/* html{
+    font-size:8px;
+} */
+h1,h2,h3{
+    color:#4F85D7;
+}
