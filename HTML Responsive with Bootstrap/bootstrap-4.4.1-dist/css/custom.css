@@ -1,14 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower');
+
 body{
     background: #DCEBFC;
+    font-family: 'Amatic SC', cursive;
 }
 .container{
     background: #FFF;
-    padding: 10rem
+    padding: 1.5rem
 
 }
-/* html{
-    font-size:8px;
-} */
+html{
+    font-size:20px;
+}
 h1,h2,h3{
     color:#4F85D7;
+}
+.footer{
+    font-family: 'Dancing Script', cursive;
+}
+.front-icon{
+    display:block;
+    color:#FFFFFF;
+    padding:3rem;
+    background:#4F85D7;
+}
+ 
+.front-icon i{
+    font-size: 10rem;
+}
+.bg-primary{
+    background: sandybrown !important;
 }
